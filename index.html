@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>The Gallery of Horns</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <h1>The Gallery of Horns</h1>
+    <nav>
+      <button id="Page1" onclick="page1()">Page 1</button>
+      <button id="Page2" onclick="page2()">Page 2</button>
+</nav>
+
+<select id="select">keyword</select>
+<button id="Page1" onclick="sort1()">Sort by Title</button>
+<button id="Page2" onclick="sort2()">Sort by Horns</button>
+
+</header>
+  
+  <main >
+    <section id="Items">
+      <template id="mustache-template" type="text/x-tmpl-mustache">
+        <div class="{{keyword}} all ">
+          <h2>{{title}}</h2>
+          <img src={{image_url}}>
+          <p>{{description}}</p>
+        </div>
+      </template>
+    </section>
+  </main>
+  <footer>
+    &copy; 2021 Code Fellows
+  </footer>
+  <script src= "https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mustache@4.2.0/mustache.js"></script>
+  <script src="./app.js"></script>
+</body>
+
+</html>
+
+

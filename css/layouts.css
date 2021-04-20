@@ -1,0 +1,18 @@
+section{
+    box-sizing: border-box;
+    border: gray 5px solid;
+    border-radius: 35px;
+    width: 290px;
+    height: 450px;
+    background-color: #490e55;
+    margin: auto;
+    display: inline-block;
+    margin-top: 90px;
+    padding: 20px;
+    margin-left: 10px;
+    margin-left:36px ;
+  }
+  
+  footer{
+    text-align: center;
+  }
