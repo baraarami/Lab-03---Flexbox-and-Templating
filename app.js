@@ -13,6 +13,7 @@ function ShowPhoto (images){
   picArr.push(this);
 }
 
+
 //render function;
 ShowPhoto.prototype.renderObj=function(){
 
@@ -77,6 +78,7 @@ function sort2(arr) {
   });
   return arr;
 }
+
 
 
 
