@@ -1,12 +1,13 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
+body{
+    font-family: 'Playball', cursive;
     margin: 0;
     padding: 0;
-    color: rgb(108, 138, 39);
-    font-family: 'Montserrat', sans-serif;
-  }
-  body {
     width: 100%;
-    background-color:#725494;
-    font-family: 'Montserrat', sans-serif;
-  }
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(208, 242, 247);
+}
 
